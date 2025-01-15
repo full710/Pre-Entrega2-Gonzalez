@@ -1,0 +1,21 @@
+<header class="text-center my-5">
+    <h1 class="display-4 text-primary">Bienvenidos a nuestra tienda</h1>
+    <h2 class="text-muted">Encuentra los mejores productos para tu entrenamiento</h2>
+</header>
+
+
+<div class="container product-container">
+  {{#each productos}}
+      <div class="card">
+        <img src="{{this.img}}" class="img card-img-top" alt="{{this.title}}">
+        <div class="card-body">
+          <h5 class="card-title">{{this.title}}</h5>
+          <p class="card-text">{{this.description}}</p>
+          <p class="card-text"><strong>{{this.price}}</strong></p>
+          <p class="card-text"><strong>{{this.code}}</strong></p>
+          <p class="card-text"><strong>{{this.stock}}</strong></p>
+        </div>
+      </div>
+
+  {{/each}}
+</div>

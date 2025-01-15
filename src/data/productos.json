@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta Deportiva",
+    "description": "Camiseta ligera y transpirable para entrenamiento intenso. Perfecta para el gimnasio o deportes al aire libre.",
+    "price": 25.99,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_649628-MLA50912086610_072022-O.webp",
+    "code": "CAM-1234",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "title": "Zapatillas Running",
+    "description": "Zapatillas diseñadas para brindar comodidad y soporte en largas distancias. Ideal para runners de todos los niveles.",
+    "price": 79.99,
+    "img": "https://showsport.vtexassets.com/arquivos/ids/798759/UND-3026573600--1-.jpg?v=638219133316070000",
+    "code": "ZAP-5678",
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "title": "Auriculares Bluetooth",
+    "description": "Auriculares inalámbricos con tecnología Bluetooth 5.0, ideales para escuchar música y hacer llamadas con calidad de sonido superior.",
+    "price": 59.99,
+    "img": "https://acdn.mitiendanube.com/stores/884/018/products/gamma-hogar-2022-10-25t104326-7711-f545577cf5cc3a201b16667059054363-1024-1024.jpg",
+    "code": "AUR-12345",
+    "stock": 40
+  },
+  {
+    "id": 5,
+    "title": "Botellas de Agua Reutilizables",
+    "description": "Botellas de acero inoxidable, perfectas para mantener la temperatura de tus bebidas por más tiempo.",
+    "price": 15.99,
+    "img": "https://merakisustentable.com/ar/wp-content/uploads/2020/08/Botellas-CoverBlog-1920x1080-1.jpg",
+    "code": "BOT-67890",
+    "stock": 100
+  },
+  {
+    "id": 6,
+    "title": "Pantalones Cortos de Entrenamiento",
+    "description": "Pantalones cortos ligeros, con gran ventilación, ideales para entrenamientos y actividades deportivas en clima cálido.",
+    "price": 19.99,
+    "img": "https://img.kwcdn.com/product/open/2023-04-18/1681812453287-72493cbcbe344a479139208cab5ce9d6-goods.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+    "code": "PAN-11121",
+    "stock": 60
+  },
+  {
+    "id": 7,
+    "title": "Mochila Deportiva",
+    "description": "Mochila de gran capacidad, perfecta para llevar tus pertenencias al gimnasio o en actividades al aire libre.",
+    "price": 39.99,
+    "img": "https://static.bidcom.com.ar/publicacionesML/productos/MOCH206X/1000x1000-MOCH206A.jpg",
+    "code": "MOC-12367",
+    "stock": 25
+  },
+  {
+    "id": 8,
+    "title": "Gafas de Sol Deportivas",
+    "description": "Gafas de sol deportivas con protección UV, diseñadas para actividades al aire libre y deportes de alto rendimiento.",
+    "price": 29.99,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_846527-MLA48160506781_112021-O.webp",
+    "code": "GAF-76543",
+    "stock": 45
+  },
+  {
+    "id": 11,
+    "title": "Gafas de Sol Deportivas",
+    "description": "Gafas de sol deportivas con protección UV, diseñadas para actividades al aire libre y deportes de alto rendimiento.",
+    "price": "29.99",
+    "img": "https://imagenes.elpais.com/resizer/v2/45BVCLBENRARHMCOSO4ASGPNV4.png?auth=43b44f43f4c20364128d2176fa56a374c410ed306705a68a9f639c5860400667&width=1960",
+    "code": "das213",
+    "stock": "233"
+  }
+]
