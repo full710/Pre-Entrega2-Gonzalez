@@ -84,25 +84,21 @@ class ProductManager {
 
     async deleteProduct(id) {
         try {
-            // Encuentra el índice del producto con el id proporcionado
+            
             const index = this.products.findIndex(item => item.id === id);
     
-            // Si el producto no existe, lanza un error
+           
             if (index === -1) {
-                throw new Error(`Producto con ID ${id} no encontrado.`);
+                throw new Error(`Producto con ID ${id} no encontrado.`)
             }
-            
-            const deletedProduct = this.products[index]
-
-            this.products.splice(index, 1);
-            
-            
-            await this.guardarArchivo();
     
-            return console.log(`El producto "${deletedProduct.title}" fue eliminado con éxito`);
+            const deletedProduct = this.products[index]
+            this.products.splice(index, 1)
+            await this.guardarArchivo()
+            return console.log(`El producto "${deletedProduct.title}" fue eliminado con éxito`)
             
         } catch (error) {
-            throw new Error(`Error al eliminar el producto: ${error.message}`);
+            throw new Error(`Error al eliminar el producto: ${error.message}`)
         }
     }
 }
